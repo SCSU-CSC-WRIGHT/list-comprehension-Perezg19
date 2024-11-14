@@ -16,7 +16,7 @@ def lab_1():
         print("D")
     elif avg<= 59:
         print("F")
-    avg=sum(scores)/len(scores) #(Do this outside of the for loop)
+    avg=sum(scores)/len(scores)
     if avg>=90:
         print("A")
     elif avg>= 80 and 90:
@@ -24,20 +24,5 @@ def lab_1():
     print(scores)
 lab_1()
 
-
-#invoke function with lab_1
-
-#def lab_2(): split.()
-
-#def lab_3(): 
-#numbers = [1,7,11,13]
-#test = [1,2,4,7]
-    #for num in numbers:
-        #if num in test:
-        #test.remove(num)
-    #return numbers + test
-    #check=input
-    #if check=exit
-        #break
-    #Skip second bullet
-    #Skip last bullet 
+def lab_2():
+    
