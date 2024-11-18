@@ -25,15 +25,18 @@ def lab_1():
 #lab_1()
 
 def lab_2():
-    numask=int(input("How many numbers will you add? "))
+    num_of_int=int(input("Please enter how many numbers you will be entering: "))
     oddl=[]
     evenl=[]
-    for i in range(numask):
-        intask=int(input("Please enter various numbers: "))
-        if i % 2 != 0:
-            oddl.append (intask)
-        if i % 2 == 0:
-            evenl.append (intask)
-        print(oddl)
-        print(evenl)
+    for i in range(num_of_int):
+        int_input=(input(f"Please enter your numbers for list {i+1}, and seperate with spaces: "))
+        numbers = int_input.split()
+        for nums in numbers:
+            num=int(nums)
+        if num % 2 == 0:
+            oddl.append (num)
+        else:
+            evenl.append (num)
+        print("\nOdd numbers: ", oddl)
+        print("Even numbers: ", evenl)
 lab_2()
