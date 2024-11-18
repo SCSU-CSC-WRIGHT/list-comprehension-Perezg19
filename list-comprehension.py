@@ -39,4 +39,18 @@ def lab_2():
             evenl.append (num)
         print("\nOdd numbers: ", oddl)
         print("Even numbers: ", evenl)
-lab_2()
+#lab_2()
+
+def lab_3():
+    list_1=[]
+    list_2=[]
+    ask_input1=(input("Please enter numbers for list 1, seperated with spaces: "))
+    list1_num=ask_input1.split()
+    for i in ask_input1:
+        list_1.append(i)
+    ask_input2=(input("Please enter numbers for list 2, seperated with spaces: "))
+    list2_num=ask_input2.split()
+    for o in ask_input2:
+        list_2.append(o)
+    print(list_1, list_2)
+lab_3()
