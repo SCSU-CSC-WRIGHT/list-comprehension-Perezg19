@@ -29,7 +29,7 @@ def lab_2():
     oddl=[]
     evenl=[]
     for i in range(num_of_int):
-        int_input=(input(f"Please enter your numbers for list {i+1}, and seperate with spaces: "))
+        int_input=(input(f"Please enter your numbers for your lists, and seperate with spaces: "))
         numbers = int_input.split()
         for nums in numbers:
             num=int(nums)
@@ -44,13 +44,12 @@ def lab_2():
 def lab_3():
     list_1=[]
     list_2=[]
+    list_3=list_1+list_2
     ask_input1=(input("Please enter numbers for list 1, seperated with spaces: "))
-    list1_num=ask_input1.split()
     for i in ask_input1:
         list_1.append(i)
     ask_input2=(input("Please enter numbers for list 2, seperated with spaces: "))
-    list2_num=ask_input2.split()
-    for o in ask_input2:
-        list_2.append(o)
+    for i in ask_input2:
+        list_2.append(i)
     print(list_1, list_2)
 lab_3()
